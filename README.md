@@ -8,16 +8,16 @@ Node and something like [`devserver`](https://github.com/kettle11/devserver) to 
 
 ### Build
 
-`npx tailwindcss -o tailwind.css --jit --purge="./**/*.html""`
+`npx tailwindcss -o tailwind.css --jit --purge="./**/*.html"`
 
 ### Hot Reload
 
 Run at the same time:
 
-- `npx tailwindcss -o tailwind.css --watch --jit --purge="./**/*.html""`
+- `npx tailwindcss -o tailwind.css --watch --jit --purge="./**/*.html"`
 - `devserver --reload`
 
 ### To Do
 
-- script or VS code command to launch both hot reload processes in parallel
+- Script or VS Code command to launch both hot reload processes in parallel
 - Solarized color scheme
