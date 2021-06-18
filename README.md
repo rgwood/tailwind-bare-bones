@@ -2,6 +2,10 @@
 
 A very simple starting point for writing no-framework web pages, using [the "Tailwind CLI" feature in v2.2](https://blog.tailwindcss.com/tailwindcss-2-2).
 
+### Prerequisites
+
+Node and something like [`devserver`](https://github.com/kettle11/devserver) to serve up a directory with hot reload
+
 ### Build
 
 `npx tailwindcss -o tailwind.css --jit --purge="./**/*.html""`
